@@ -33,7 +33,7 @@ python3 create-template.py <challenge-name> <output-directory> --force
 ### Linux
 
 ```bash
-python3 create-template.py easy_crack ./writeups
+python3 create-template.py easy_crack ../../challenge-writeups/
 ```
 
 If the script is executable, you can also run:
@@ -45,26 +45,26 @@ If the script is executable, you can also run:
 ### macOS
 
 ```bash
-python3 create-template.py easy_crack ./writeups
+python3 create-template.py easy_crack ../../challenge-writeups/
 ```
 
 Optional executable mode:
 
 ```bash
 chmod +x create-template.py
-./create-template.py easy_crack ./writeups
+./create-template.py easy_crack ../../challenge-writeups/
 ```
 
 ### Windows
 
 ```powershell
-python create-template.py easy_crack .\writeups
+python create-template.py easy_crack ../../challenge-writeups/
 ```
 
 If `python` is not available, try the Python Launcher:
 
 ```powershell
-py create-template.py easy_crack .\writeups
+py create-template.py easy_crack ../../challenge-writeups/
 ```
 
 ## Notes
