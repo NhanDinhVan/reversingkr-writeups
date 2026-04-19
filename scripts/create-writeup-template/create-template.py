@@ -7,8 +7,7 @@ import sys
 from pathlib import Path
 
 
-TEMPLATE = """# [Challenge Name] - Write-up
-
+TEMPLATE = """# Write-up - [Challenge Name] 
 ## 1. Overview
 - **Platform:** reverse.kr
 - **Category:** Reverse Engineering
@@ -133,7 +132,7 @@ def main() -> int:
     base_path = Path(args.output_directory)
     challenge_dir = base_path / slugify(args.challenge_name)
     evidence_dir = challenge_dir / "image-evidences"
-    writeup_path = challenge_dir / "write-up.md"
+    writeup_path = challenge_dir / "README.md"
 
     challenge_dir.mkdir(parents=True, exist_ok=True)
     evidence_dir.mkdir(parents=True, exist_ok=True)
