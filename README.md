@@ -51,14 +51,39 @@ Overall, this setup helps me balance safety, convenience, and realism. Ubuntu re
 │   │   └── image-evidences/
 |   |   └── write-up.md
 │   └── easy-unpack/
-└── tools-and-enviroments/
+└── tools-and-environments/
 ```
 
 ### Folder Notes
 
 - `challenge-writeups/`: Contains individual challenge solutions and analysis notes.
 - `image-evidences/`: Stores screenshots or visual evidence used in a write-up.
-- `tools-and-enviroments/`: Reserved for setup notes, tool installation records, and environment documentation.
+- `tools-and-environments/`: Reserved for setup notes, tool installation records, and environment documentation.
+
+## Tooling
+
+To keep documentation consistent and easy to share, I use a small Markdown-to-PDF workflow for exporting write-ups.
+
+All write-ups in this repository are written in Markdown and can be converted to PDF using a custom setup based on `md2pdf` with CSS styling.
+
+This helps:
+- Preserve formatting (especially images and code blocks)
+- Generate clean, readable documents for offline viewing or sharing
+- Maintain a consistent visual style across all write-ups
+
+The converter and styling configuration can be found here:
+
+```
+tools-and-environments/convert-markdown2pdf/
+```
+
+Each write-up can be exported using a simple command:
+
+```bash
+md2pdf --input write-up.md --output write-up.pdf --css path/to/md2pdf.css
+```
+
+This workflow is optional but recommended for generating polished versions of the write-ups.
 
 ## Write-up Style
 
