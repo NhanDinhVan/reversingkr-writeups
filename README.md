@@ -62,18 +62,18 @@ Overall, this setup helps me balance safety, convenience, and realism. Ubuntu re
 
 ## Write-up Style
 
-I want each challenge write-up in this repository to follow a consistent structure:
+I want each challenge write-up in this repository to follow a consistent reverse engineering structure:
 
-1. Challenge overview
-2. Initial observations
-3. Tooling used
-4. Step-by-step analysis
-5. Key findings
-6. Final solution
-7. Lessons learned
+1. Overview  
+2. Initial Analysis  
+3. Static Analysis  
+4. Dynamic Analysis (if applicable)  
+5. Reversing Logic  
+6. Solution  
+7. Result (Flag)  
+8. Conclusion / Lessons Learned  
 
-Where useful, I will also include screenshots, debugger views, strings output, disassembly snippets, and short reflections on what I misunderstood during the process.
-
+Where appropriate, I include screenshots (e.g., disassembly, debugger views), relevant strings output, and annotated code snippets to illustrate key steps in the analysis. I also highlight important reasoning steps and any incorrect assumptions encountered during the process.
 
 ## References
 
